@@ -406,7 +406,6 @@ while (toggle) {
                 clickHere(700, 800)             ; home button
                 checking := 0
                 games := games + 1
-                Gosub turnOff
                 step := 3
             }
             color := colorHere(925, 770)        ; check for defeat's restart button
