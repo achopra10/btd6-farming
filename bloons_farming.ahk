@@ -384,9 +384,8 @@ while (toggle) {
         }
         pressStream(",,,,,/////.....")
         clickHere(30, 0)
-        Click Right                        ; start
-        Sleep, InputDelay
-        Click Right                        ; speed up
+        press("{Space}")                        ; start
+        press("{Space}")                        ; speed up
         if (toggle) {
             step := 2
         }
